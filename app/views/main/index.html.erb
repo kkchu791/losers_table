@@ -1,0 +1,13 @@
+<h1>Loser's Table</h1>
+
+<div>
+  <% @persons.each do |person| %>
+    <%= person.name %>
+  <% end %>
+</div>
+
+<div class="right">
+  <% @events.each do |event| %>
+    <%= event.name %>
+  <% end %>
+</div>
